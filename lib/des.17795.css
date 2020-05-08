@@ -1,0 +1,41 @@
+.bodypage #sitecontent .content_editor,
+.bodylistpost #sitecontent .content_editor {
+    padding-top: 72px;
+}
+
+
+.bodylist.bodyvideom .tab_button {
+    display: none;
+}
+.bodylist.bodyvideom .tab_content .item_block {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    float: left;
+    border: none;
+}
+
+.bodylist.bodyvideom .tab_content .content_list {
+    margin-right: -20px;
+}
+.bodylist.bodyvideom .tab_content .item_block .item_wrapper {
+    display: block;
+}
+.bodylist.bodyvideom .tab_content .item_block .date_wrap {
+    display: none;
+}
+
+.ff_indexPage .videom .tab_button {
+    display: none;
+}
+.ff_indexPage .videom.ff_noSlider .content_list {
+    margin-right: -20px;
+}
+.ff_indexPage .videom.ff_noSlider .item_block {
+    float: left;
+    width: calc(25% - 20px);
+    margin-right: 20px;
+}
+.ff_indexPage .videom.ff_noSlider .module_container {
+    max-width: none;
+    padding: 60px 20px;
+}
