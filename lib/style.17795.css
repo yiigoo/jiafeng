@@ -2634,7 +2634,7 @@ body #navWrapper .content .nav > .navitem:hover .subnav {
   visibility: visible;
 }
 
-body #header .content .nav .navitem:nth-last-of-type(2) .subnav {
+body #header .content .nav .navitem:nth-last-of-type(1) .subnav {
   left: auto;
   right: 0;
 }
