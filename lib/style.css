@@ -6300,4 +6300,65 @@ canvas {
   transform: translateY(-50%);
 }
 
+.design-image{
+  background-image:url('../images/1570762410305.png')
+}
+.text-center{
+  text-align: center;
+}
+.pro-bg{
+  background-image: url('../images/pro-bg.jpg'); 
+  background-position-x: initial; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer-contact{
+  background-color: rgb(29, 29, 29);
+}
+.text-20{
+  font-size: 20px;
+}
+.text-12{
+  font-size: 12px;
+}
+.text-16{
+  font-size: 16px;
+}
+.colorHsl100{
+  color:hsl(0,0%,100%);
+}
+.colorHsl60{
+  color:hsl(0,0%,60%);
+}
+.colorHsl90{
+  color:hsl(0,0%,90%);
+}
+.lineHeight25{
+  line-height:2.5;
+}
+.w20px{
+  width: 20px;
+}
+.layout-margin_placeholder_top{
+  height: 60px;
+}
+.layout-margin_placeholder_bottom{
+  height: 45px;
+}
+.friend-link a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.friend-link a:hover{
+  text-decoration: underline;
+}
+.page-body{
+  padding-top: 72px;
+  background-color: #f7f7f7;
+  padding-bottom: 60px;
+}
+.page-body #pageTarget{
+  background: transparent;
+}
 /*# sourceMappingURL=debug/style.17795.css.map */
