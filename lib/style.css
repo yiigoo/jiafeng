@@ -6325,6 +6325,10 @@ canvas {
 .text-16{
   font-size: 16px;
 }
+.text-26{
+  font-size: 26px;
+  line-height: 1.5;
+}
 .colorHsl100{
   color:hsl(0,0%,100%);
 }
@@ -6333,6 +6337,9 @@ canvas {
 }
 .colorHsl90{
   color:hsl(0,0%,90%);
+}
+.colorHsl0{
+  color:hsl(0,0%,0%);
 }
 .lineHeight25{
   line-height:2.5;
@@ -6360,5 +6367,8 @@ canvas {
 }
 .page-body #pageTarget{
   background: transparent;
+}
+.page-about{
+  padding: 60px 0;
 }
 /*# sourceMappingURL=debug/style.17795.css.map */

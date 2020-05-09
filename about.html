@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="agent-pc theme-w theme-wgreen">
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>网站建设，响应式网站制作，微信小程序，360全景制作，720高空全景制作 - 新动力建站</title>
+	<meta name="keywords" content="网站建设，响应式网站制作，微信小程序，360全景制作，720高空全景制作">
+	<meta name="description" content="专注互联网应用十余载，网站建设，网页设计，企业微信应用小程序对接，房地产专业领域数字展厅，科技引领企业质的提升">
+	<meta name="author" content="YY-MO">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta name="format-detection" content="telephone=no" />
+	<script type="text/javascript" src="./lib/jquery.min.js"></script>
+	<script type="text/javascript" src="./lib/org.js" data-main="baseMain"></script>
+	<script type="text/javascript" src="./lib/plugs.js"></script>
+	<script type="text/javascript" src="./lib/lib.js"></script>
+	<link rel="stylesheet" type="text/css" href="./lib/editorPageStyle.css">
+    <link rel="stylesheet" type="text/css" href="./lib/lib2.css">
+    <link rel="stylesheet" type="text/css" href="./lib/style.css">
+    <link rel="stylesheet" type="text/css" href="./lib/des.css">
+</head>
+<body id="longPage" class="gh0 longPage bodyindex">
+	<div class="bodyMask"></div>
+	<div id="header">
+		<div class="wrapper">
+			<div class="content">
+				<div id="headTop">
+					<a href="index.html" id="logo">
+						<img src="images/logo.png" height="44" />
+					</a>
+				</div>
+				<div id="navWrapper">
+					<div class="content">
+						<ul class="nav movedx" data-movedx-mid="1">
+							<li class="navitem"> 
+								<a href="index.html">
+									<span>首页</span>
+								</a>
+							</li>
+							<li class="navitem"> 
+								<a href="product.html">
+									<span>产品</span> 
+								</a>
+							</li>
+							<li class="navitem"> 
+								<a href="server.html">
+									<span>服务</span> 
+								</a>
+							</li>
+							<li class="navitem"> 
+								<a href="news.html">
+									<span>新闻</span> 
+								</a>
+							</li>
+							<li class="navitem"> 
+								<a href="javascript:;" class="active"> 
+									<span>关于</span> 
+									<i class="fa fa-angle-down"></i>
+								</a>
+								<ul class="subnav">
+									<li> 
+										<a href="about.html">关于</a>
+									</li>
+									<li> 
+										<a href="team.html">团队</a>
+									</li>
+									<li> 
+										<a href="partner.html">合作伙伴</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navitem"> 
+								<a href="video.html">
+									<span>视频</span> 
+								</a>
+							</li>
+							<li class="navitem"> 
+								<a href="javascript:;"> 
+									<span data-title="联系">联系</span> 
+									<i class="fa fa-angle-down"></i>
+								</a>
+								<ul class="subnav">
+									<li> 
+										<a href="contact.html">联系我们</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div id="search-nav" class="searchGroup oldSearch">
+							<div class="search_wrap">
+								<div class="searchOnOff">
+									<i class="fa fa-search"></i>
+								</div>
+								<div class="searchBox">
+									<div class="searchFormGroup">
+										<input 
+											type="text" 
+											aria-label="搜索" 
+											placeholder="搜索" 
+											autocorrect="off"
+											autocapitalize="off" 
+											autocomplete="off" 
+											spellcheck="false" />
+										<div class="searchSub">
+											<span>搜索</span>
+											<i class="fa fa-search"></i>
+										</div>
+									</div>
+									<div class="searchClose">
+										<i class="fa fa-times" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div id="sitecontent" class="ff_sitecontent">
+		<!-- 头部搜索 -->
+		<script>
+			var searchAddr = window.location.origin + '/search/s/';
+			function jumpToSearch($el) {
+				var searchInfor = encodeURIComponent(encodeURIComponent($el.val())) + '/';
+				window.open(searchAddr + searchInfor);
+			}
+			$('.searchGroup .searchSub').click(function () {
+				jumpToSearch($(this).parent().find('input'));
+				return false;
+			});
+
+			$('.searchGroup input').on({
+				'keydown': function (ev) {
+					if (ev.keyCode == 13) {
+						jumpToSearch($(this));
+					}
+				},
+				'blur': function () {
+					var _this = this;
+					setTimeout(function() {
+						$(_this).val("");
+					}, 200);
+				}
+			});
+		</script>
+		
+		<div class="npagePage pageEditor content_editor" id="page_about1">
+			<div class="content">
+				<div class="mpageEditor module">
+					<div class="module_container">
+						<div class="container_header wow">
+							<p class="title">关于</p>
+							<p class="subtitle">About us</p>
+						</div>
+						<div class="container_content">
+							<div class="content_wrapper">
+								<div class="postbody">
+									<div id="page_body_editor-wrapper" class="page_body_editor-wrapper">
+										<div id="DJDsuvuKRCQyVjtq" data-window_width="true" class="layout_group" style="background-color: rgba(255, 255, 255, 0);">
+											<section class="layout_limit_wrapper">
+												<section class="layout_container">
+													<section class="layout_body">
+														<section id="COvPzcIqYwxItdBV" class="layout">
+															<section data-animate="4" data-col="100" class="row" style="width: 100%;">
+																<section id="GGJGJYqGyLwyiuoV" class="col editor_wrapper col-100">
+																	<section class="editor ck-content">
+																		<figure class="image">
+																			<img src="http://resources.jsmo.xin/templates/upload/6666/201803/1522313322350.png">
+																		</figure>
+																	</section>
+																</section>
+															</section>
+														</section>
+													</section>
+												</section>
+											</section>
+										</div>
+										
+										<div id="ycbNjRIbPnqgMecZ" data-window_width="true" data-limit_width="true" class="layout_group">
+											<section class="layout_limit_wrapper">
+												<section class="layout_container">
+													<section class="layout_body">
+														<section id="iiJKcGJqVCTPRqHD" class="layout">
+															<section data-animate="4"  data-col="100" class="row">
+																<section id="BZmcLyRYrOpoQckT" class="col editor_wrapper col-100">
+																	<section class="editor ck-content">
+																		<section class="blank_block normal_blank">
+																			&nbsp;
+																		</section>
+																		<p class="text-center">
+																			<span class="text-26 colorHsl0"><strong>关于我们</strong></span>
+																		</p>
+																		<p class="text-center">
+																			<span class="colorHsl60">About Us</span>
+																		</p>
+																	</section>
+																</section>
+															</section>
+														</section>
+														<section id="RddeKhVCncEJAusz" class="layout page-about">
+															<section data-animate="4" data-col="50_50" class="row">
+																<section id="FkotzFyzfhKnTLai" class="col ditor_wrapper col-50" style=" background-color: rgba(51, 51, 51, 0);">
+																	<section class="editor ck-content">
+																		<figure class="image">
+																			<img src="http://resources.jsmo.xin/templates/upload/6666/201804/1523614273522.png" />
+																		</figure>
+																	</section>
+																</section>
+																<span class="col_space" style="width: 2%;"></span>
+																<section id="jXQPZwnQvFefkXxi" class="col editor_wrapper col-50">
+																	<section class="editor ck-content">
+																		<p>
+																			<span class="colorHsl60">设计，指设计师有目标有计划的进行技术性的创作与创意活动。设计的任务不只是为生活和商业服务，同时也伴有艺术性的创作。</span>
+																		</p>
+																		<p>&nbsp;</p>
+																		<hr class="hr dash" />
+																		<p>&nbsp;</p>
+																		<p><span class="colorHsl60">根据工业设计师Vic&shy;tor Pa&shy;panek  的定义，设计（De&shy;sign）是为构建有意义的秩序而付出的有意识的直觉上的努力。更详细的定义如下：</span></p>
+																		<p>
+																			<br />
+																			<span  class="colorHsl60">第一步：理解用户的期望、需要、动机，并理解业务、技术和行业上的需求和限制。</span>
+																		</p>
+																		<p>
+																			<br />
+																			<span class="colorHsl60">
+																				第二步：将这些所知道的东西转化为对产品的规划（或者产品本身），使得产品的形式、内容和行为变得有用、能用，令人向往，并且在经济和技术上可行。（这是设计的意义和基本要求所在）
+																			</span>
+																		</p>
+																		<p>&nbsp;</p>
+																		<p>
+																			<span class="colorHsl60">这个定义可以适用于设计的所有领域，尽管不同领域的关注点从形式、内容到行为上均有所不同。</span>
+																		</p>
+																	</section>
+																</section>
+															</section>
+														</section>
+													</section>
+												</section>
+											</section>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 联系2 start -->
+		<div class="page_contect_editor">
+			<div id="page_body_editor-wrapper" data-type="" class="page_body_editor-wrapper">
+				<div id="qVbFbFqOoERrDiWq" data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
+					<section class="layout_limit_wrapper">
+						<section class="layout_container">
+							<section class="layout_body">
+								<section id="IxbbDpsNGCaqQjFf" class="layout">
+									<div class="layout-margin_placeholder_top"></div>
+									<section data-animate="1" data-col="25_25_25_25" class="row" style="width: 100%;">
+										<section id="pqesBEyMrEfrkAtv" class="col editor_wrapper col-25">
+											<section class="editor ck-content">
+												<p>
+													<span class="text-20">
+														<span class="colorHsl100">momo科技</span>
+													</span>
+												</p>
+												<p><span class="text-12">
+													<span class="colorHsl60">Communication Co. Ltd.</span></span>
+												</p>
+												<p>&nbsp;</p>
+												<p><span class="colorHsl60">地址：北京市朝阳区世贸商务楼2688室</span></p>
+												<p><span class="colorHsl60">电话：+86 10 69888888</span></p>
+												<p><span class="colorHsl60">邮箱：website@webs.com</span></p>
+												<p>&nbsp;</p>
+												<figure class="media">
+													<div class="ck_share ck_share_style_one ck_share_theme_black ck_share_pos_left" data-oembed-url="http://resources.jsmo.xin?class=ck_share ck_share_style_one ck_share_theme_black ck_share_pos_left&amp;data=%7B%22weibo%22%3A%7B%22link%22%3A%22http%3A%2F%2Fwww.weibo.com%22%2C%22title%22%3A%22%22%2C%22icon%22%3A%22ifont-weibo%22%7D%2C%22weixin%22%3A%7B%22link%22%3A%22http%3A%2F%2Fresources.jsmo.xin%2Ftemplates%2Fupload%2F15415%2F201908%2F1567074726390.png%22%2C%22title%22%3A%22%22%2C%22icon%22%3A%22ifont-weixin%22%7D%2C%22twitter2%22%3A%7B%22link%22%3A%22http%3A%2F%2Fwww.twitter.com%22%2C%22title%22%3A%22%22%2C%22icon%22%3A%22ifont-twitter_icon2%22%7D%7D">
+														<section class="ck-share-container">
+															<a href="http://www.weibo.com" target="_blank" class="ck-share-item ck-share-type-weibo">
+																<i class="ifont ifont-weibo"></i>
+																<span class="ck-editor-name"></span>
+															</a>
+															<a href="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
+																<i class="ifont ifont-weixin"></i>
+																<span class="ck-editor-name"></span>
+															</a>
+															<a href="http://www.twitter.com" target="_blank" class="ck-share-item ck-share-type-twitter2">
+																<i class="ifont ifont-twitter_icon2"></i>
+																<span class="ck-editor-name"></span>
+															</a>
+														</section>
+													</div>
+												</figure>
+											</section>
+										</section>
+										<span class="col_space w20px" ></span>
+										<section id="EfXGlBiOdwFICnVn" class="col editor_wrapper col-25">
+											<section class="editor ck-content">
+												<p><span class="text-16" style="font-size:16px;">优质服务</span></p>
+												<p>&nbsp;</p>
+												<p>
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="lineHeight25 colorHsl90">
+															关于我们
+														</span>
+													</a>
+												</p>
+												<p>
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="lineHeight25 colorHsl90">
+															合作机会
+														</span>
+													</a>
+												</p>
+												<p>
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="lineHeight25 colorHsl90">
+															媒体联络
+														</span>
+													</a>
+												</p>
+											</section>
+										</section>
+										<span class="col_space w20px" ></span>
+										<section id="GvGvaCikLFHCpvmC" class="col editor_wrapper col-25">
+											<section class="editor ck-content">
+												<p><span class="text-16">服务范围</span></p>
+												<p>&nbsp;</p>
+												<p>
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="lineHeight25 colorHsl90">
+															用户体验设计
+														</span>
+													</a>
+												</p>
+												<p>
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="lineHeight25 colorHsl90">
+															精英团队
+														</span>
+													</a>
+												</p>
+												<p>
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="lineHeight25 colorHsl90">
+															品牌服务
+														</span>
+													</a>
+												</p>
+											</section>
+										</section>
+										<span class="col_space w20px"></span>
+
+										<section id="qlJcthNFMylEylfo" class="col editor_wrapper col-25">
+											<section class="editor ck-content">
+												<figure class="table" data-border="true">
+													<table>
+														<tbody>
+															<tr>
+																<td>&nbsp;</td>
+																<td colspan="4">
+																	<figure class="image"><img
+																			src="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png">
+																	</figure>
+																	<p style="text-align:center;">&nbsp;</p>
+																	<p style="text-align:center;">微信公众号</p>
+																</td>
+																<td>&nbsp;</td>
+															</tr>
+														</tbody>
+													</table>
+												</figure>
+											</section>
+										</section>
+									</section>
+									<div class="layout-margin_placeholder_bottom"></div>
+								</section>
+								<section id="qIljZtQDEJLVafKR" class="layout">
+									<section data-animate="1" data-col="100" class="row">
+										<section id="POcsFhsVDesdUiGN" class="col editor_wrapper col-100">
+											<section class="editor ck-content friend-link">
+												<p>
+													友情链接 ：
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="colorHsl60">百度</span>
+													</a>
+													|
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="colorHsl60">新浪</span>
+													</a>
+													|
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="colorHsl60">设计公司</span>
+													</a>
+													|
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="colorHsl60">文化公司</span>
+													</a>
+													|
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="colorHsl60">品牌建设</span>
+													</a>
+													|
+													<a class="normal_link" href="http://www.baidu.com" target="_blank">
+														<span class="colorHsl60">网站建设</span>
+													</a>
+												</p>
+											</section>
+										</section>
+									</section>
+									<div class="layout-margin_placeholder_bottom"></div>
+								</section>
+							</section>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+		<!-- 联系2 start -->
+
+	</div>
+	<!-- 版权 -->
+	<div id="footer">
+		<p>
+			<span class="ellipsis">
+				COPYRIGHT (©) 2020 新动力建站.
+			</span>
+		</p>
+	</div>
+
+	<!-- 分享 -->
+	<div id="shares">
+		<a href="http://service.weibo.com/share/share.php?appkey=3206975293&" target="_blank" id="sweibo">
+			<i class="fa fa-weibo"></i>
+		</a>
+		<a href="javacript:;" id="sweixin">
+			<i class="fa fa-mobile"></i>
+		</a>
+		<a href="javascript:;" id="gotop">
+			<i class="fa fa-angle-up"></i>
+		</a>
+	</div>
+	<div class="fixed" id="fixed_weixin">
+		<div class="fixed-container">
+			<div id="qrcode"></div>
+			<p>扫描二维码分享到微信</p>
+		</div>
+	</div>
+	<div id="online_open">
+		<i class="fa fa-comments-o"></i>
+	</div>
+	<div id="online_lx">
+		<div id="olx_head">在线咨询
+			<i class="fa fa-times fr" id="online_close"></i>
+		</div>
+		<ul id="olx_qq">
+			<li>
+				<a href="tencent://message/?uin=40080000&Site=uelike&Menu=yes">
+					<i class="fa fa-qq"></i>40080000
+				</a>
+			</li>
+		</ul>
+		<div id="olx_tel">
+			<div>
+				<i class="fa fa-phone"></i>联系电话
+			</div>
+			<p>
+				400-888-8888<br />
+			</p>
+		</div>
+	</div>
+	<a id="openAssist" href="javascript:;">
+		<i class="icon iconfont icon-add"></i>
+	</a>
+	<div id="assistBtn">
+		<a href="javascript:;" onclick="$('html,body').scrollTop(0);return false;">
+			<i class="fa fa-angle-up"></i>
+		</a>
+		<a class="_fa-tel" href="tel:400-888-8888">
+			<i class="fa fa-phone"></i>
+		</a>
+		<a class="_fa-qq" href="mqqwpa://im/chat?chat_type=wpa&uin=&version=1">
+			<i class="fa fa-qq"></i>
+		</a>
+	</div>
+</body>
+</html>
