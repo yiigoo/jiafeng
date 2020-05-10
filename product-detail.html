@@ -121,32 +121,6 @@
 		</div>
 	</div>
 	<div id="sitecontent" class="ff_sitecontent">
-		<!-- 头部搜索 -->
-		<script>
-			var searchAddr = window.location.origin + '/search/s/';
-			function jumpToSearch($el) {
-				var searchInfor = encodeURIComponent(encodeURIComponent($el.val())) + '/';
-				window.open(searchAddr + searchInfor);
-			}
-			$('.searchGroup .searchSub').click(function () {
-				jumpToSearch($(this).parent().find('input'));
-				return false;
-			});
-
-			$('.searchGroup input').on({
-				'keydown': function (ev) {
-					if (ev.keyCode == 13) {
-						jumpToSearch($(this));
-					}
-				},
-				'blur': function () {
-					var _this = this;
-					setTimeout(function() {
-						$(_this).val("");
-					}, 200);
-				}
-			});
-		</script>
 
 		<div class="npagePage post ff_postPage content_editor">
     		<div class="content">
@@ -158,14 +132,14 @@
 									<div class="postContent">
 										<div class="postbody">
 											<div id="page_body_editor-wrapper" class="page_body_editor-wrapper">
-												<div id="pJgbwaNQjhCFYXJx" data-window_width="true" class="layout_group">
+												<div data-window_width="true" class="layout_group">
 													<section class="layout_limit_wrapper">
 														<section class="layout_container">
 															<section class="layout_body">
-																<section id="qpWxxAAnhAHfAqcZ" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<div class="layout-margin_placeholder_top"></div>
 																	<section data-animate="4" data-col="100" class="row">
-																		<section id="zQuOgijSioXSotrE" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
 																				<figure class="image">
 																					<img src="./images/1571370296646.jpg"></figure>
@@ -177,14 +151,14 @@
 														</section>
 													</section>
 												</div>
-												<div id="gvOOVpwjtmhWMVdp" data-window_width="true" data-limit_width="true" class="layout_group">
+												<div data-window_width="true" data-limit_width="true" class="layout_group">
 													<section class="layout_limit_wrapper">
 														<section class="layout_container">
 															<section class="layout_body">
-																<section id="NYdIlkTdsgPOJcLA" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<div class="layout-margin_placeholder_top"></div>
 																	<section data-animate="4" data-col="100" class="row">
-																		<section id="nZhhTHhWAmlrmsoL" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content text-center">
 																				<p>
 																					<span class="text-26 lineHeight175 colorHsl0">
@@ -204,13 +178,13 @@
 														</section>
 													</section>
 												</div>
-												<div id="VvjFSXtLeQwnPrap" data-window_width="true" data-limit_width="true" class="layout_group">
+												<div data-window_width="true" data-limit_width="true" class="layout_group">
 													<section class="layout_limit_wrapper">
 														<section class="layout_container">
 															<section class="layout_body">
-																<section id="XVxubszuUPvQtkpf" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<section data-animate="4" data-col="100" class="row">
-																		<section id="qlWTHcSRZPbJKkTW" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
 																				<p>&nbsp;</p>
 																				<p>工业设计分为产品设计、环境设计、传播设计、设计管理4类；包括造型设计、机械设计、电路设计、服装设计、环境规划、室内设计、建筑设计、UI设计、平面设计、包装设计、广告设计、动画设计、展示设计、网站设计等。工业设计又称工业产品设计学，工业设计涉及到心理学，社会学，美学，人机工程学，机械构造，摄影，色彩学等。工业发展和劳动分工所带来的工业设计，与其它艺术、生产活动、工艺制作等都有明显不同，它是各种学科、技术和审美观念的交叉产物</p>
@@ -218,9 +192,9 @@
 																		</section>
 																	</section>
 																</section>
-																<section id="lLkPwxHZqqjPrZtO" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<section data-animate="3" data-col="100" class="row">
-																		<section id="uhwKHhvDZEXzpBqc" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
 																				<figure class="image">
 																					<img src="./images//1522400656944.png"></figure>
@@ -228,9 +202,9 @@
 																		</section>
 																	</section>
 																</section>
-																<section id="JCRfrbmgWoXBOjZh" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<section data-animate="2" data-col="100" class="row">
-																		<section id="XmSsBNZcixfzunlI" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
 																				<hr class="hr dash">
 																				<p>
@@ -249,7 +223,7 @@
 																		</section>
 																	</section>
 																</section>
-																<section id="gDrBvHUPpaUNUcNa" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<section data-animate="3" data-col="100" class="row">
 																		<section id="pLXgHdFyMrHTWTHi" class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
@@ -266,9 +240,9 @@
 																		</section>
 																	</section>
 																</section>
-																<section id="MVnbwhcwojWpNQUW" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<section data-animate="2" data-col="100" class="row">
-																		<section id="jjEBiPvOhrXiJigB" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
 																				<p>
 																					<span class="text-20 lineHeight2 colorHsl0">
@@ -284,9 +258,9 @@
 																		</section>
 																	</section>
 																</section>
-																<section id="jcmIwMCUFrYErkwH" data-type-detail="custom" class="layout">
+																<section class="layout">
 																	<section data-animate="3" data-col="100" class="row">
-																		<section id="YwnkcTnFrTfJjlsL" class="col editor_wrapper col-100">
+																		<section class="col editor_wrapper col-100">
 																			<section class="editor ck-content">
 																				<p>
 																					<span class="text-20 lineHeight2 colorHsl0">
@@ -317,7 +291,8 @@
 											<a href="#" target="_blank">网站设计</a>
 											<a href="#" target="_blank">工业设计</a>
 											<a href="#" target="_blank">用户体验</a>
-											<a href="#" target="_blank">平面设计</a></div>
+											<a href="#" target="_blank">平面设计</a>
+										</div>
 										<div class="mlist type04">
 											<div class="content_wrapper">
 												<div class="content_list clearfix">
@@ -356,14 +331,14 @@
 		<!-- 联系2 start -->
 		<div class="page_contect_editor">
 			<div id="page_body_editor-wrapper" data-type="" class="page_body_editor-wrapper">
-				<div id="qVbFbFqOoERrDiWq" data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
+				<div data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
 					<section class="layout_limit_wrapper">
 						<section class="layout_container">
 							<section class="layout_body">
-								<section id="IxbbDpsNGCaqQjFf" class="layout">
+								<section class="layout">
 									<div class="layout-margin_placeholder_top"></div>
 									<section data-animate="1" data-col="25_25_25_25" class="row" style="width: 100%;">
-										<section id="pqesBEyMrEfrkAtv" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p>
 													<span class="text-20">
@@ -385,7 +360,7 @@
 																<i class="ifont ifont-weibo"></i>
 																<span class="ck-editor-name"></span>
 															</a>
-															<a href="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
+															<a href="./images/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
 																<i class="ifont ifont-weixin"></i>
 																<span class="ck-editor-name"></span>
 															</a>
@@ -399,7 +374,7 @@
 											</section>
 										</section>
 										<span class="col_space w20px" ></span>
-										<section id="EfXGlBiOdwFICnVn" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p><span class="text-16" style="font-size:16px;">优质服务</span></p>
 												<p>&nbsp;</p>
@@ -427,7 +402,7 @@
 											</section>
 										</section>
 										<span class="col_space w20px" ></span>
-										<section id="GvGvaCikLFHCpvmC" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p><span class="text-16">服务范围</span></p>
 												<p>&nbsp;</p>
@@ -456,7 +431,7 @@
 										</section>
 										<span class="col_space w20px"></span>
 
-										<section id="qlJcthNFMylEylfo" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<figure class="table" data-border="true">
 													<table>
@@ -464,8 +439,8 @@
 															<tr>
 																<td>&nbsp;</td>
 																<td colspan="4">
-																	<figure class="image"><img
-																			src="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png">
+																	<figure class="image">
+																	<img src="./images/1567074726390.png">
 																	</figure>
 																	<p style="text-align:center;">&nbsp;</p>
 																	<p style="text-align:center;">微信公众号</p>
@@ -480,9 +455,9 @@
 									</section>
 									<div class="layout-margin_placeholder_bottom"></div>
 								</section>
-								<section id="qIljZtQDEJLVafKR" class="layout">
+								<section class="layout">
 									<section data-animate="1" data-col="100" class="row">
-										<section id="POcsFhsVDesdUiGN" class="col editor_wrapper col-100">
+										<section class="col editor_wrapper col-100">
 											<section class="editor ck-content friend-link">
 												<p>
 													友情链接 ：
@@ -521,7 +496,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- 联系2 start -->
+		<!-- 联系2 end -->
 
 	</div>
 	<!-- 版权 -->

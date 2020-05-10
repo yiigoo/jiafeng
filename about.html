@@ -121,32 +121,6 @@
 		</div>
 	</div>
 	<div id="sitecontent" class="ff_sitecontent">
-		<!-- 头部搜索 -->
-		<script>
-			var searchAddr = window.location.origin + '/search/s/';
-			function jumpToSearch($el) {
-				var searchInfor = encodeURIComponent(encodeURIComponent($el.val())) + '/';
-				window.open(searchAddr + searchInfor);
-			}
-			$('.searchGroup .searchSub').click(function () {
-				jumpToSearch($(this).parent().find('input'));
-				return false;
-			});
-
-			$('.searchGroup input').on({
-				'keydown': function (ev) {
-					if (ev.keyCode == 13) {
-						jumpToSearch($(this));
-					}
-				},
-				'blur': function () {
-					var _this = this;
-					setTimeout(function() {
-						$(_this).val("");
-					}, 200);
-				}
-			});
-		</script>
 		
 		<div class="npagePage pageEditor content_editor" id="page_about1">
 			<div class="content">
@@ -160,13 +134,13 @@
 							<div class="content_wrapper">
 								<div class="postbody">
 									<div id="page_body_editor-wrapper" class="page_body_editor-wrapper">
-										<div id="DJDsuvuKRCQyVjtq" data-window_width="true" class="layout_group" style="background-color: rgba(255, 255, 255, 0);">
+										<div data-window_width="true" class="layout_group" style="background-color: rgba(255, 255, 255, 0);">
 											<section class="layout_limit_wrapper">
 												<section class="layout_container">
 													<section class="layout_body">
-														<section id="COvPzcIqYwxItdBV" class="layout">
+														<section class="layout">
 															<section data-animate="4" data-col="100" class="row" style="width: 100%;">
-																<section id="GGJGJYqGyLwyiuoV" class="col editor_wrapper col-100">
+																<section class="col editor_wrapper col-100">
 																	<section class="editor ck-content">
 																		<figure class="image">
 																			<img src="http://resources.jsmo.xin/templates/upload/6666/201803/1522313322350.png">
@@ -180,13 +154,13 @@
 											</section>
 										</div>
 										
-										<div id="ycbNjRIbPnqgMecZ" data-window_width="true" data-limit_width="true" class="layout_group">
+										<div data-window_width="true" data-limit_width="true" class="layout_group">
 											<section class="layout_limit_wrapper">
 												<section class="layout_container">
 													<section class="layout_body">
-														<section id="iiJKcGJqVCTPRqHD" class="layout">
+														<section class="layout">
 															<section data-animate="4"  data-col="100" class="row">
-																<section id="BZmcLyRYrOpoQckT" class="col editor_wrapper col-100">
+																<section class="col editor_wrapper col-100">
 																	<section class="editor ck-content">
 																		<section class="blank_block normal_blank">
 																			&nbsp;
@@ -201,9 +175,9 @@
 																</section>
 															</section>
 														</section>
-														<section id="RddeKhVCncEJAusz" class="layout page-about">
+														<section class="layout page-about">
 															<section data-animate="4" data-col="50_50" class="row">
-																<section id="FkotzFyzfhKnTLai" class="col ditor_wrapper col-50" style=" background-color: rgba(51, 51, 51, 0);">
+																<section class="col ditor_wrapper col-50" style=" background-color: rgba(51, 51, 51, 0);">
 																	<section class="editor ck-content">
 																		<figure class="image">
 																			<img src="http://resources.jsmo.xin/templates/upload/6666/201804/1523614273522.png" />
@@ -211,7 +185,7 @@
 																	</section>
 																</section>
 																<span class="col_space" style="width: 2%;"></span>
-																<section id="jXQPZwnQvFefkXxi" class="col editor_wrapper col-50">
+																<section class="col editor_wrapper col-50">
 																	<section class="editor ck-content">
 																		<p>
 																			<span class="colorHsl60">设计，指设计师有目标有计划的进行技术性的创作与创意活动。设计的任务不只是为生活和商业服务，同时也伴有艺术性的创作。</span>
@@ -254,14 +228,14 @@
 		<!-- 联系2 start -->
 		<div class="page_contect_editor">
 			<div id="page_body_editor-wrapper" data-type="" class="page_body_editor-wrapper">
-				<div id="qVbFbFqOoERrDiWq" data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
+				<div data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
 					<section class="layout_limit_wrapper">
 						<section class="layout_container">
 							<section class="layout_body">
-								<section id="IxbbDpsNGCaqQjFf" class="layout">
+								<section class="layout">
 									<div class="layout-margin_placeholder_top"></div>
 									<section data-animate="1" data-col="25_25_25_25" class="row" style="width: 100%;">
-										<section id="pqesBEyMrEfrkAtv" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p>
 													<span class="text-20">
@@ -283,7 +257,7 @@
 																<i class="ifont ifont-weibo"></i>
 																<span class="ck-editor-name"></span>
 															</a>
-															<a href="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
+															<a href="./images/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
 																<i class="ifont ifont-weixin"></i>
 																<span class="ck-editor-name"></span>
 															</a>
@@ -297,7 +271,7 @@
 											</section>
 										</section>
 										<span class="col_space w20px" ></span>
-										<section id="EfXGlBiOdwFICnVn" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p><span class="text-16" style="font-size:16px;">优质服务</span></p>
 												<p>&nbsp;</p>
@@ -325,7 +299,7 @@
 											</section>
 										</section>
 										<span class="col_space w20px" ></span>
-										<section id="GvGvaCikLFHCpvmC" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p><span class="text-16">服务范围</span></p>
 												<p>&nbsp;</p>
@@ -354,7 +328,7 @@
 										</section>
 										<span class="col_space w20px"></span>
 
-										<section id="qlJcthNFMylEylfo" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<figure class="table" data-border="true">
 													<table>
@@ -362,8 +336,8 @@
 															<tr>
 																<td>&nbsp;</td>
 																<td colspan="4">
-																	<figure class="image"><img
-																			src="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png">
+																	<figure class="image">
+																	<img src="./images/1567074726390.png">
 																	</figure>
 																	<p style="text-align:center;">&nbsp;</p>
 																	<p style="text-align:center;">微信公众号</p>
@@ -378,9 +352,9 @@
 									</section>
 									<div class="layout-margin_placeholder_bottom"></div>
 								</section>
-								<section id="qIljZtQDEJLVafKR" class="layout">
+								<section class="layout">
 									<section data-animate="1" data-col="100" class="row">
-										<section id="POcsFhsVDesdUiGN" class="col editor_wrapper col-100">
+										<section class="col editor_wrapper col-100">
 											<section class="editor ck-content friend-link">
 												<p>
 													友情链接 ：
@@ -419,7 +393,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- 联系2 start -->
+		<!-- 联系2 end -->
 
 	</div>
 	<!-- 版权 -->

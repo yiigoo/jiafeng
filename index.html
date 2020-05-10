@@ -121,32 +121,7 @@
 		</div>
 	</div>
 	<div id="sitecontent" class="ff_sitecontent">
-		<!-- 头部搜索 -->
-		<script>
-			var searchAddr = window.location.origin + '/search/s/';
-			function jumpToSearch($el) {
-				var searchInfor = encodeURIComponent(encodeURIComponent($el.val())) + '/';
-				window.open(searchAddr + searchInfor);
-			}
-			$('.searchGroup .searchSub').click(function () {
-				jumpToSearch($(this).parent().find('input'));
-				return false;
-			});
 
-			$('.searchGroup input').on({
-				'keydown': function (ev) {
-					if (ev.keyCode == 13) {
-						jumpToSearch($(this));
-					}
-				},
-				'blur': function () {
-					var _this = this;
-					setTimeout(function() {
-						$(_this).val("");
-					}, 200);
-				}
-			});
-		</script>
 		<div id="indexPage" class="ff_indexPage">
 			<!-- 首页轮播图 start -->
 			<div id="topSlider" class="ff_topSlider mslider module">
@@ -234,7 +209,7 @@
 						<div class="content_wrapper slider" data-slider-num="3" data-slider-loop="0">
 							<div class="content_list clearfix owl-carousel owl-theme owl-loaded owl-drag">
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301679/" class="item_box">
+									<a href="server-detail.html" target="_blank" class="item_box">
 										<div  class="item_img">
 											<img src="./images/1571377527695.jpg" />
 											<div class="item_mask"></div>
@@ -249,7 +224,7 @@
 													2是以用户为中心的一种设计手段，以用户需求为目标而进行的设计。设计过程注重以用户为中心，用户体验的概念从开发的最早期就开始进入整个流程，并贯穿始终
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301679/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right"></i>
 											</span>
@@ -257,7 +232,7 @@
 									</a>
 								</div>
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301682/" class="item_box">
+									<a href="server-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img src="./images/1571378570504.jpg" />
 											<div class="item_mask"></div>
@@ -272,7 +247,7 @@
 													&lt;&gt;一个创造性的综合信息处理过程，通过多种元素如线条、符号、数字、色彩等方式的组合把产品的形状以平面或立体的形式展现出来。它是将人的某种目的或需要转换为一个具体的物理或工具的过程；是把一种计划、规划设想、问题解决的方法&lt;/p&gt;
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301682/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right" aria-hidden="true"></i>
 											</span>
@@ -280,7 +255,7 @@
 									</a>
 								</div>
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301681/" class="item_box">
+									<a href="server-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img src="./images/1571378965684.jpg" />
 											<div class="item_mask"></div>
@@ -295,7 +270,7 @@
 													工业设计分为产品设计、环境设计、传播设计、设计管理4类；包括造型设计、机械设计、电路设计、服装设计、环境规划、室内设计、建筑设计、UI设计、平面设计、包装设计、广告设计、动画设计、展示设计
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301681/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right" aria-hidden="true"></i>
 											</span>
@@ -303,7 +278,7 @@
 									</a>
 								</div>
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301680/" class="item_box">
+									<a href="server-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img src="./images/157137902119.jpg" />
 											<div class="item_mask"></div>
@@ -318,7 +293,7 @@
 													&lt;p&gt;包装设计，是一个学科专业名称，培养掌握平面包装设计、广告艺术设计领域的专业知识及专业技能的人才。经济全球化的今天，包装与商品已融为一体&lt;/p&gt;
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301680/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right" aria-hidden="true"></i>
 											</span>
@@ -326,7 +301,7 @@
 									</a>
 								</div>
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301683/" class="item_box">
+									<a href="server-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img
 												src="./images/1571379109758.jpg" />
@@ -342,7 +317,7 @@
 													&lt;p&gt;一个创造性的综合信息处理过程，通过多种元素如线条、符号、数字、色彩等方式的组合把产品的形状以平面或立体的形式展现出来。它是将人的某种目的或需要转换为一个具体的物理或工具的过程；是把一种计划、规划设想、问题解决的方法&lt;/p&gt;
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301683/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right"></i>
 											</span>
@@ -350,7 +325,7 @@
 									</a>
 								</div>
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301684/" class="item_box">
+									<a href="server-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img src="./images/1571379241864.jpg" />
 											<div class="item_mask"></div>
@@ -365,7 +340,7 @@
 													根据企业希望向浏览者传递的信息，进行网站功能策划，然后进行的页面设计美化工作。作为企业对外宣传物料的其中一种，精美的网页设计，对于提升企业的互联网品牌形象至关重要
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301684/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right" aria-hidden="true"></i>
 											</span>
@@ -389,29 +364,31 @@
 						<p class="subtitle">Best Product</p>
 					</div>
 					<div class="container_category wow movedx">
-						<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/id/255931/" class="active">
+						<a href="product.html" class="active">
 							<span>全部</span>
 						</a>
-						<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/id/255932/">
+						<a href="product.html">
 							<span>空间导视</span>
 						</a>
-						<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/id/255933/">
+						<a href="product.html">
 							<span>公益传媒</span>
 						</a>
-						<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/id/255934/">
+						<a href="product.html">
 							<span>品牌制定</span>
 						</a>
-						<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/id/255935/">
+						<a href="product.html">
 							<span>产品包装</span>
 						</a>
-						<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/id/255931/" class="ff_more"><span>MORE</span></a>
+						<a href="product.html" class="ff_more">
+							<span>MORE</span>
+						</a>
 					</div>
 					<div class="container_content">
 						<div class="content_wrapper">
 							<div class="content_list clearfix">
-								<div id="item_block_0" class="item_block_0 item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301688/" class="item_box">
-										<div href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301688/" class="item_img" target="_blank">
+								<div class="item_block wow">
+									<a href="product-detail.html" target="_blank" class="item_box">
+										<div class="item_img">
 											<img src="./images/1571370249788.jpg" />
 											<div class="item_mask"></div>
 											<div class="item_icon hide">
@@ -458,19 +435,15 @@
 									</p>
 									<p><br /></p>
 									<p><br /></p>
-									<p><a href="http://www.baidu.com" target="_self" class="more">MORE</a></p>
+									<p><a href="http://www.baidu.com" target="_blank" class="more">MORE</a></p>
 									<p><br /></p>
 								</div>
 							</div>
 						</div>
 
 						<div class="mediabody wow">
-							<a target="_blank" href="http://mo005-1872.mo5.line1.jsmo.xin/list/post/39699/">
+							<a target="_blank" href="http://www.baidu.com">
 								<div class="image design-image">
-								</div>
-								<div class="mask"></div>
-								<div class="link_icon">
-									<i class="fa fa-link" aria-hidden="true"></i>
 								</div>
 							</a>
 						</div>
@@ -492,7 +465,7 @@
 						<div class="content_wrapper">
 							<div class="content_list clearfix">
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301603/" class="item_box">
+									<a href="team-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img src="./images/1571382332659.jpg" />
 											<div class="item_mask"></div>
@@ -534,12 +507,14 @@
 								<div class="description wow">
 									<p class="text-center">
 										凭借多年在网站设计和开发行业的经验，JSMO引以为豪的是，我们致力于打造独特，创造性和高质量的设计，这些设计采用最新的现代编码和开发技术开发，然后使用最新的结构化编码框架构建，
-										您的开发团队可以轻松将其升级到新的水平。<br /></p>
-									<p style="text-align: center;">
+										您的开发团队可以轻松将其升级到新的水平。<br />
+									</p>
+									<p class="text-center">
 										凭借多年在网站设计和开发行业的经验，JSMO引以为豪的是，我们致力于打造独特，创造性和高质量的设计，这些设计采用最新的现代编码和开发技术开发，然后使用最新的结构化编码框架构建，
-										您的开发团队可以轻松将其升级到新的水平。</p>
+										您的开发团队可以轻松将其升级到新的水平。
+									</p>
 									<p><br /></p>
-									<p style="text-align: center;">
+									<p class="text-center">
 										<a href="http://www.baidu.com" target="_self"
 											class="more"><span style="font-size: 14px;">查看更多</span></a></p>
 									<p><br /></p>
@@ -567,7 +542,7 @@
 						<div class="content_wrapper">
 							<div class="content_list clearfix">
 								<div class="item_block wow">
-									<a href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301551/" class="item_box">
+									<a href="news-detail.html" target="_blank" class="item_box">
 										<div class="item_img">
 											<img src="./images/1571379375115.jpg" />
 											<div class="item_mask"></div>
@@ -588,7 +563,7 @@
 													选出35个杰出视觉体验网站，被选其中,被收录到意大利全国工业设计协会从书中1
 												</p>
 											</div>
-											<span href="//ugpmg5xg.mo5.line2.jsmo.xin/list/post/1301551/" class="details hide">
+											<span class="details hide">
 												MORE
 												<i class="fa fa-angle-right"></i>
 											</span>
@@ -716,14 +691,14 @@
 		<!-- 联系2 start -->
 		<div class="page_contect_editor">
 			<div id="page_body_editor-wrapper" data-type="" class="page_body_editor-wrapper">
-				<div id="qVbFbFqOoERrDiWq" data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
+				<div data-window_width="true" data-limit_width="true" class="layout_group footer-contact">
 					<section class="layout_limit_wrapper">
 						<section class="layout_container">
 							<section class="layout_body">
-								<section id="IxbbDpsNGCaqQjFf" class="layout">
+								<section class="layout">
 									<div class="layout-margin_placeholder_top"></div>
 									<section data-animate="1" data-col="25_25_25_25" class="row" style="width: 100%;">
-										<section id="pqesBEyMrEfrkAtv" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p>
 													<span class="text-20">
@@ -745,7 +720,7 @@
 																<i class="ifont ifont-weibo"></i>
 																<span class="ck-editor-name"></span>
 															</a>
-															<a href="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
+															<a href="./images/1567074726390.png" target="_blank" class="ck-share-item ck-share-type-weixin">
 																<i class="ifont ifont-weixin"></i>
 																<span class="ck-editor-name"></span>
 															</a>
@@ -759,7 +734,7 @@
 											</section>
 										</section>
 										<span class="col_space w20px" ></span>
-										<section id="EfXGlBiOdwFICnVn" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p><span class="text-16" style="font-size:16px;">优质服务</span></p>
 												<p>&nbsp;</p>
@@ -787,7 +762,7 @@
 											</section>
 										</section>
 										<span class="col_space w20px" ></span>
-										<section id="GvGvaCikLFHCpvmC" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<p><span class="text-16">服务范围</span></p>
 												<p>&nbsp;</p>
@@ -816,7 +791,7 @@
 										</section>
 										<span class="col_space w20px"></span>
 
-										<section id="qlJcthNFMylEylfo" class="col editor_wrapper col-25">
+										<section class="col editor_wrapper col-25">
 											<section class="editor ck-content">
 												<figure class="table" data-border="true">
 													<table>
@@ -824,8 +799,8 @@
 															<tr>
 																<td>&nbsp;</td>
 																<td colspan="4">
-																	<figure class="image"><img
-																			src="http://resources.jsmo.xin/templates/upload/15415/201908/1567074726390.png">
+																	<figure class="image">
+																	<img src="./images/1567074726390.png">
 																	</figure>
 																	<p style="text-align:center;">&nbsp;</p>
 																	<p style="text-align:center;">微信公众号</p>
@@ -840,9 +815,9 @@
 									</section>
 									<div class="layout-margin_placeholder_bottom"></div>
 								</section>
-								<section id="qIljZtQDEJLVafKR" class="layout">
+								<section class="layout">
 									<section data-animate="1" data-col="100" class="row">
-										<section id="POcsFhsVDesdUiGN" class="col editor_wrapper col-100">
+										<section class="col editor_wrapper col-100">
 											<section class="editor ck-content friend-link">
 												<p>
 													友情链接 ：

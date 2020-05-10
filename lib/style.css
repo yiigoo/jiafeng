@@ -6330,9 +6330,15 @@ canvas {
 .text-30{
   font-size: 30px;
 }
+.text-40{
+  font-size: 40px;
+}
 .text-26{
   font-size: 26px;
   line-height: 1.5;
+}
+.text-info{
+  color:rgb(114,114,114);
 }
 .colorHsl100{
   color:hsl(0,0%,100%);
@@ -6363,6 +6369,9 @@ canvas {
 }
 .w20px{
   width: 20px;
+}
+.w50px{
+  width: 50px;
 }
 .w500px{
   width: 500px;
@@ -6408,5 +6417,11 @@ canvas {
 .bottomServerList p{
   margin-block-start: 0 !important;
   margin-block-end: 0 !important;
+}
+.server-detail-bg-1{
+  background-color: rgb(17, 17, 17);
+}
+.server-detail-bg-2{
+  background-color: rgba(0, 0, 0, 0.745);
 }
 /*# sourceMappingURL=debug/style.17795.css.map */
